@@ -1,0 +1,49 @@
+body {
+    background-image: url("/images/background.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+p {
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: white;
+}
+
+.input {
+    border: none;
+    padding: 1rem;
+    border-radius: 1rem;
+    background: rgb(46, 46, 46);
+    box-shadow: 20px 20px 60px #c5c5c5,
+           -20px -20px 60px #ffffff;
+    transition: 0.3s;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 700px;
+    height: 40px;
+    font-size: 2rem;
+   }
+   
+   .input:focus {
+    outline-color: #e8e8e8;
+    background: #e8e8e8;
+    box-shadow: inset 20px 20px 60px #c5c5c5,
+           inset -20px -20px 60px #ffffff;
+    transition: 0.3s;
+   }
+
+.card {
+ justify-content: center;
+ align-items: center;
+ margin: 30px;
+ display: inline-flex;
+ width: 254px;
+ height: 95px;
+ border-radius: 30px;
+ background: rgb(46, 46, 46);
+ box-shadow: 15px 15px 30px #bebebe,
+            -15px -15px 30px #ffffff;
+ }
